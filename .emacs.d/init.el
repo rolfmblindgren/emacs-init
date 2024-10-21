@@ -1,5 +1,8 @@
 (setq custom-file (expand-file-name "~/.emacs.d/custom.el"))
 
+(require 'tree-sitter)
+(require 'tree-sitter-langs)
+
 (setq mac-option-key-is-meta nil)
 (setq mac-command-modifier 'meta)
 (setq mac-option-modifier nil)

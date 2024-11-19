@@ -56,7 +56,8 @@
 (use-package ess
   :ensure t
   :config
-  (setq ess-style 'GNU
+  (setq ess-style 'OWN
+	ess-indent-level 2
         inferior-ess-r-program "/Library/Frameworks/R.framework/Versions/Current/Resources/bin/R"))
 
 (use-package auctex

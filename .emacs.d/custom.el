@@ -141,9 +141,10 @@
      ("nongnu" . "https://elpa.nongnu.org/nongnu/")
      ("melpa" . "https://melpa.org/packages/")))
  '(package-selected-packages
-   '(ace-window auctex cargo cargo-mode ess-R-data-view lua-mode magit
-		pcsv polymode rust-mode sly swift-mode use-package
-		web-mode))
+   '(ace-window auctex cargo cargo-mode circe circleci-api
+		ess-R-data-view lua-mode magit pcsv polymode rust-mode
+		sly swift-mode tree-sitter tree-sitter-langs
+		use-package web-mode))
  '(polymode-exporter-output-file-format "%s")
  '(polymode-weaver-output-file-format "%s")
  '(python-indent-offset 2)

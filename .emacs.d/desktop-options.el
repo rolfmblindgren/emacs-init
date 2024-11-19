@@ -1,3 +1,4 @@
+
 ;; use only one desktop
 (setq desktop-path '("~/.emacs.d/"))
 (setq desktop-dirname "~/.emacs.d/")
@@ -35,5 +36,3 @@
 	  '(lambda ()
 	     (if (and session-auto-restore saved-session)
 		     (session-restore))))
-
-

@@ -124,7 +124,9 @@
  '(custom-enabled-themes '(tango-dark))
  '(desktop-restore-frames nil)
  '(desktop-save-mode t)
+ '(epg-gpg-program "/opt/homebrew/bin/gpg")
  '(ess-style 'GNU)
+ '(global-git-gutter-mode t)
  '(inferior-ess-r-program
    "/Library/Frameworks/R.framework/Versions/Current/Resources/bin/R")
  '(inferior-lisp-program "/opt/homebrew/bin/sbcl")
@@ -141,10 +143,10 @@
      ("nongnu" . "https://elpa.nongnu.org/nongnu/")
      ("melpa" . "https://melpa.org/packages/")))
  '(package-selected-packages
-   '(ace-window auctex cargo cargo-mode circe circleci-api
-		ess-R-data-view lua-mode magit pcsv polymode rust-mode
-		sly swift-mode tree-sitter tree-sitter-langs
-		use-package web-mode))
+   '(ace-window auctex avy cargo cargo-mode circe circleci-api ess
+		ess-R-data-view git-gutter lua-mode magit pcsv
+		polymode rust-mode sly swift-mode tree-sitter
+		tree-sitter-langs use-package web-mode))
  '(polymode-exporter-output-file-format "%s")
  '(polymode-weaver-output-file-format "%s")
  '(python-indent-offset 2)
